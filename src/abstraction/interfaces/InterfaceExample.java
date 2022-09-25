@@ -1,22 +1,4 @@
-package abstraction;
-
-interface Printable {
-    public static int num = 100;
-    void print();
-}
-
-class A4 implements Printable {
-    public void print() {
-        System.out.println("Hello --- A4");
-    }
-}
-
-class A6 implements Printable {
-    public static int num = 10000;
-    public void print() {
-        System.out.println("Hello --- A6");
-    }
-}
+package abstraction.interfaces;
 
 public class InterfaceExample {
     public static void main(String[] args) {
